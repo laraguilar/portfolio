@@ -12,7 +12,7 @@ const SkillsSection = () => {
       title: 'FRONT END',
       icon: <Code2 className="w-12 h-12" />,
       color: 'from-green-400 to-green-600',
-      items: ['React.js', 'Next.js', 'TypeScript', 'JavaScript', 'Tailwind CSS', 'Figma', 'Prototipação', 'UI/UX', 'Design Responsivo']
+      items: ['React.js', 'Next.js', 'Vue.js', 'TypeScript', 'JavaScript', 'Tailwind CSS', 'Figma', 'Prototipação', 'UI/UX', 'Design Responsivo']
     },
     backend: {
       title: 'BACK END & BD',
