@@ -12,7 +12,7 @@ const HeroAnimation = () => {
       <div className="relative w-[350px] h-[350px] flex items-center justify-center z-10">
 
          {/* Moldura Verde / SVG com glow formato portal */}
-        <div className="absolute transform -2translate-y-2 z-0 w-[400px] h-[400px]">
+        <div className="absolute transform -translate-y-2 z-0 w-[400px] h-[400px]">
 
           {/* SEU SVG ORIGINAL */}
           <img

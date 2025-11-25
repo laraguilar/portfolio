@@ -32,7 +32,7 @@ const SkillsSection = () => {
     <section id="skills" className="py-20 px-6 bg-gray-800/50">
       <div className="max-w-7xl mx-auto">
         <h2 className="text-4xl md:text-5xl font-bold text-center mb-16">
-          <span className="text-green-500">&lt;</span> Habilidades <span className="text-green-500">/&gt;</span>
+          <span className="text-green-500">{"{"}</span> Habilidades <span className="text-green-500">{"}"}</span>
         </h2>
         <div className="grid md:grid-cols-3 gap-8">
           {Object.entries(skills).map(([key, skill]) => (

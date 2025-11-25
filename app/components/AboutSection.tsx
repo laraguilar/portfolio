@@ -5,7 +5,7 @@ const AboutSection = () => {
     <section id="about" className="py-20 px-6 bg-gray-800/50">
       <div className="max-w-7xl mx-auto">
         <h2 className="text-4xl md:text-5xl font-bold text-center mb-16">
-          <span className="text-green-500">_</span>Sobre mim<span className="text-green-500">_</span>
+          <span className="text-green-500">{"{"}</span> Sobre mim <span className="text-green-500">{"}"}</span>
         </h2>
         <div className="grid md:grid-cols-2 gap-12 items-center">
           <div className="flex justify-center">
