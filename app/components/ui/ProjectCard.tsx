@@ -6,7 +6,7 @@ const ProjectCard = ({ project }: { project: Project }) => {
     <div className="bg-gray-800 rounded-xl overflow-hidden border border-gray-700 hover:border-green-500 transition-all duration-300 transform hover:scale-[1.02]">
       <div className="grid md:grid-cols-3 gap-6">
         <div className="bg-gray-700/50 h-64 md:h-auto flex items-center justify-center">
-          <Code2 className="w-24 h-24 text-gray-600" />
+          <img src={project.image} alt={project.title} className="w-full h-full object-cover object-center"/>
         </div>
         <div className="md:col-span-2 p-6 md:p-8 flex flex-col justify-center">
           <span className="text-green-500 font-semibold text-sm mb-2">{project.category}</span>
@@ -23,7 +23,8 @@ const ProjectCard = ({ project }: { project: Project }) => {
             ))}
           </div>
           <a
-            href="#"
+            href={project.externalLink || '#'}
+            target={project.externalLink ? '_blank' : undefined}
             className="text-green-500 hover:text-green-400 font-semibold flex items-center gap-2 w-fit group"
           >
             Ver mais detalhes

@@ -12,4 +12,5 @@ export interface Project {
   description: string;
   tech: string[];
   image: string;
+  externalLink?: string;
 }
